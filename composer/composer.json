@@ -1,0 +1,26 @@
+{
+    "name": "adaps/composer-php",
+    "description": "projeto adaps brasil tic",
+    "autoload": {
+        "psr-4": {
+            "Adaps\\ComposerPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Marcelo Farias",
+            "email": "marcelofarias2010@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "phpmailer/phpmailer": "^6.6",
+        "monolog/monolog": "^2.5",
+        "dompdf/dompdf": "^1.2",
+        "wixel/gump": "^1.12",
+        "geekcom/phpjasper": "^3.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit":"^4.3"
+    }
+}

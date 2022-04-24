@@ -1,4 +1,5 @@
 <?php
+require_once './composer/vendor/autoload.php';
 include_once "./app/conexao/Conexao.php";
 include_once "./app/dao/UsuarioDAO.php";
 include_once "./app/model/Usuario.php";
@@ -6,6 +7,7 @@ include_once "./app/model/Usuario.php";
 //instancia as classes
 $usuario = new Usuario();
 $usuariodao = new UsuarioDAO();
+
 ?>
 
 <!DOCTYPE html>
